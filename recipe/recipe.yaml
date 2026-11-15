@@ -1,6 +1,6 @@
 context:
   name: ccflow-celery
-  version: "0.1.0"
+  version: "0.1.1"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/ccflow-celery/ccflow_celery-${{ version }}.tar.gz
-  sha256: fdcc4f88aa1e391158a6feb61d810a1b63d46422f5143e1d6e299530944351d8
+  sha256: c26f35be437eaa55102990a53128399c8086e658fe490f5ca6ac94b69a8a86aa
 
 build:
   noarch: python
